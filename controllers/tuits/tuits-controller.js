@@ -8,7 +8,8 @@ const createTuit = (req, res) => {
     newTuit.userName = "Shi"
     newTuit.handle = "@Shi"
     newTuit.avatarIcon = "Nsa.jpg"
-    newTuit.liked = false;
+    newTuit.likes = 0;
+    newTuit.dislikes = 0;
     tuits.push(newTuit);
     res.json(newTuit);
 }
@@ -25,6 +26,7 @@ const updateTuit = (req, res) => {
         {...tuits[tuitIndex], ...updates};
     res.sendStatus(200);
 }
+
 
 
 const deleteTuit = (req, res) => {

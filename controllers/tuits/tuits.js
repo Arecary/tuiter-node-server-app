@@ -14,6 +14,7 @@ export default [
         "replies": 4200,
         "retuits": 3500,
         "likes": 37500,
+        "dislikes": 200,
         "liked": true
     },
     {
@@ -29,6 +30,7 @@ export default [
         "replies": 965,
         "retuits": 2400,
         "likes": 4000,
+        "dislikes": 100,
         "liked": false,
         "content": "Grimes, who recently “semi-separated” from Elon Musk",
         "content2": "whose $200 billion makes him for now the world’s richest man — was spotted Friday in downtown Los Angeles flipping through Karl Marx’s decidedly anti-capitalistic “Communist Manifesto” in her first public appearance since the split."
