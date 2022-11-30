@@ -8,7 +8,9 @@ import UserController
 import TuitsController
     from "./controllers/tuits/tuits-controller.js";
 import mongoose from "mongoose";
-mongoose.connect('mongodb://localhost:27017/tuiter');
+const CONNECTION_STRING = "mongodb+srv://mhyyhmhy:zs19960203@cluster0.inpeylh.mongodb.net/?retryWrites=true&w=majority"
+                          || 'mongodb://localhost:27017/tuiter'
+mongoose.connect('mongodb+srv://mhyyhmhy:zs19960203@cluster0.inpeylh.mongodb.net/?retryWrites=true&w=majority');
 
 
 const app = express()
